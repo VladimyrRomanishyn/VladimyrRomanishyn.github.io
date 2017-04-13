@@ -26,7 +26,7 @@ exports = module.exports = __webpack_require__(15)();
 
 
 // module
-exports.push([module.i, ".items, .comments{\n    position: absolute;\n    width: 45%;\n    background:#fff;\n    max-height: 90%;\n    margin: 3% 1% 0 0;\n    border: 2px solid #eee;\n    border-radius: 3px;\n    /*overflow-y:scroll ;*/\n}\n.items{\n    left: 3vw;\n}\n.comments{\n    right: 3vw;\n}\n\n.items h2, .comments h2{\n     font: lighter  2.5vw  \"Open-Sans\", sans-serif; \n     color: #565a69;\n     margin: 2vw 3vw ;\n}\n\n.addItem{\n    margin-bottom: 5%;\n}\n\n.addItem input[type=text]{\n    float: left;\n    width: 60%;\n    height: 3vw;\n    margin: 0 2% 0 5%;\n    padding-left: 2%;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    font: lighter 1.5vw  \"Open-Sans\", sans-serif; \n    color: #b3b3b3;\n}\n.addItem input[type=button]{\n    display: block;\n    width: 27%;\n    height: 3.3vw;\n    background: #27ccc0;\n    color: #fff;\n    border-radius: 4px;\n    font: bold  1.5vw  \"Open-Sans\", sans-serif; \n    border:none;\n}\n.addItem input[type=button]:active{\n    background: red;\n    outline:none;\n}\n.red{\n    border-left: 8px solid #ff2f5a;\n}\n.item{\n    position: relative;\n    height: 5vw;\n    line-height: 5vw;\n    margin:0 5%;\n    border-bottom: 2px solid #f2f2f2;\n}\n.itemName{\n    color: #2b2f3e;\n    font: bold  1vw  \"Open-Sans\", sans-serif; \n    cursor: pointer;\n}\n.commentsNumber{\n    background: #27ccc0;\n    padding:  1% 2%;\n    margin: 2%;\n    border-radius: 45%;\n    color: #fff;\n    font: bold  1.5vw  \"Open-Sans\", sans-serif; \n}\n.item input[type=button]{\n    position: absolute;\n    right: 0;\n    top: 15%;\n    width: 24%;\n    height: 3.3vw;\n    border-radius: 5px;\n    border: 1px solid #ff3159;\n    background: #fff;\n    font:  1.3vw  \"Open-Sans\", sans-serif;\n    color: #ff305a; \n}\n.item input[type=button]:active{\n    background: #ff305a;\n    color: #fff;\n    outline:none;\n}\n.comment{\n    margin:0 4% 5% 4%;\n    padding-bottom: 4%;\n    font:  1vw  \"Open-Sans\", sans-serif;\n    color: #666666;\n    border-bottom: 2px solid #f2f2f2;\n}\n.comments img{\n    width: 70px;\n    height: 70px;\n    float:left; \n    margin-right: 4%;\n}\n.comment span{\n    display: inline-block;\n    width: 75%;\n    min-height: 70px;\n}\n.self-comment{\n    margin:0 4% 5% 4%;\n}\n.self-comment textarea{\n    width: 70%;\n    height: 80px;\n    border: 1px solid #f2f2f2;\n    font:  1vw  \"Open-Sans\", sans-serif;\n    color: #666666;\n    border-radius: 4px;\n    resize: none;\n}\n\n\n ", ""]);
+exports.push([module.i, ".items, .comments{\n    position: absolute;\n    width: 45%;\n    background:#fff;\n    max-height: 90%;\n    margin: 3% 1% 0 0;\n    border: 2px solid #eee;\n    border-radius: 3px;\n    overflow-y:auto;\n}\n.items{\n    left: 3vw;\n}\n.comments{\n    right: 3vw;\n}\n\n.items h2, .comments h2{\n     font: lighter  2.5vw  \"Open-Sans\", sans-serif; \n     color: #565a69;\n     margin: 2vw 3vw ;\n}\n\n.addItem{\n    margin-bottom: 5%;\n}\n\n.addItem input[type=text]{\n    float: left;\n    width: 60%;\n    height: 3vw;\n    margin: 0 2% 0 5%;\n    padding-left: 2%;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    font: lighter 1.5vw  \"Open-Sans\", sans-serif; \n    color: #b3b3b3;\n}\n.addItem input[type=button]{\n    display: block;\n    width: 27%;\n    height: 3.3vw;\n    background: #27ccc0;\n    color: #fff;\n    border-radius: 4px;\n    font: bold  1.5vw  \"Open-Sans\", sans-serif; \n    border:none;\n}\n.addItem input[type=button]:active{\n    background: red;\n    outline:none;\n}\n.red{\n    border-left: 8px solid #ff2f5a;\n}\n.item{\n    position: relative;\n    height: 5vw;\n    line-height: 5vw;\n    margin:0 5%;\n    border-bottom: 2px solid #f2f2f2;\n}\n.itemName{\n    color: #2b2f3e;\n    font: bold  1vw  \"Open-Sans\", sans-serif; \n    cursor: pointer;\n}\n.commentsNumber{\n    background: #27ccc0;\n    padding:  1% 2%;\n    margin: 2%;\n    border-radius: 45%;\n    color: #fff;\n    font: bold  1.5vw  \"Open-Sans\", sans-serif; \n}\n.item input[type=button]{\n    position: absolute;\n    right: 0;\n    top: 15%;\n    width: 24%;\n    height: 3.3vw;\n    border-radius: 5px;\n    border: 1px solid #ff3159;\n    background: #fff;\n    font:  1.3vw  \"Open-Sans\", sans-serif;\n    color: #ff305a; \n}\n.item input[type=button]:active{\n    background: #ff305a;\n    color: #fff;\n    outline:none;\n}\n.comment{\n    margin:0 4% 5% 4%;\n    padding-bottom: 4%;\n    font:  1vw  \"Open-Sans\", sans-serif;\n    color: #666666;\n    border-bottom: 2px solid #f2f2f2;\n}\n.comments img{\n    width: 70px;\n    height: 70px;\n    float:left; \n    margin-right: 4%;\n}\n.comment span{\n    display: inline-block;\n    width: 75%;\n    min-height: 70px;\n}\n.self-comment{\n    margin:0 4% 5% 4%;\n}\n.self-comment textarea{\n    width: 70%;\n    height: 80px;\n    border: 1px solid #f2f2f2;\n    font:  1vw  \"Open-Sans\", sans-serif;\n    color: #666666;\n    border-radius: 4px;\n    resize: none;\n}\n\n\n ", ""]);
 
 // exports
 
@@ -133,7 +133,6 @@ var DetailComponent = (function () {
     }
     DetailComponent.prototype.ngOnInit = function () {
         this.getData();
-        this.checkHeight();
     };
     DetailComponent.prototype.setData = function () {
         var data = JSON.stringify(this.Data);
@@ -199,22 +198,6 @@ var DetailComponent = (function () {
         else {
             return;
         }
-    };
-    DetailComponent.prototype.checkHeight = function () {
-        var items = document.getElementById('items');
-        var comments = document.getElementById('comments');
-        var observer = new MutationObserver(function (target) {
-            target.forEach(function (element) {
-                var doc = document.documentElement.clientHeight;
-                var percent = Math.round(element.target.clientHeight / doc * 100);
-                if (percent > 80) {
-                    element.target.style.overflowY = 'auto';
-                }
-            });
-        });
-        var config = { attributes: true, childList: true, characterData: true };
-        observer.observe(items, config);
-        observer.observe(comments, config);
     };
     return DetailComponent;
 }());
@@ -325,12 +308,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment_prod__ = __webpack_require__(99);
 
 
 
 
-if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
+if (__WEBPACK_IMPORTED_MODULE_3__environments_environment_prod__["a" /* environment */].production) {
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["enableProdMode"])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
@@ -547,15 +530,10 @@ var initialData = [
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: false
+    production: true
 };
-//# sourceMappingURL=environment.js.map
+//# sourceMappingURL=environment.prod.js.map
 
 /***/ })
 
